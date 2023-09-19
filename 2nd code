@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,result;
+    printf("enter no.of five rupees coins,no.of ten rupee coins,cost of each chocolate");
+    scanf("%d%d%d",&a,&b,&c);
+    result=(a+b)/c ;
+    printf("no.of chocolates can buy=%d",result);
+
+    return 0;
+}
