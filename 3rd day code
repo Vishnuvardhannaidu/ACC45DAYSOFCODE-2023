@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int daily_goal, chocolates_sold,total_amount;
+
+    printf("Enter Chef's daily goal and no.of chocolates_sold");
+    scanf("%d%d", &daily_goal,&chocolates_sold);
+
+    if (chocolates_sold <= daily_goal) {
+        total_amount = chocolates_sold; 
+    } else {
+        total_amount = daily_goal + 2 * (chocolates_sold - daily_goal);
+    }
+
+    printf("Chef made a total of %d rupees.\n", total_amount);
+
+   
+
+
+    return 0;
+}
