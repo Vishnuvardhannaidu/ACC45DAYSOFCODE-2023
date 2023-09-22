@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int battery;
+    
+    printf("enter battery level:");
+    scanf("%d",&battery);
+    
+    if(battery<=15){
+        printf("low battery");
+    }else{
+        printf("battery safe");
+    }
+
+    return 0;
+}
