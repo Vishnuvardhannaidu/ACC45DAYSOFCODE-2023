@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{
+   int no_of_following,no_of_followers;
+   
+      printf("enter no_of_following and no_of_followers");
+      scanf("%d%d",&no_of_following,&no_of_followers);
+      
+      if(no_of_following<=no_of_followers){
+          printf("not a scam account");
+      }else{
+          printf("scam account");
+      }
+
+    return 0;
+}
